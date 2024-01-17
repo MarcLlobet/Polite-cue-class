@@ -2,7 +2,6 @@ export type IndividualProps = {
   prev: IndividualProps | null;
   next: IndividualProps | null;
   cueNumber: number;
-  amITheLastOne: boolean;
   leave: () => IndividualProps;
 };
 
